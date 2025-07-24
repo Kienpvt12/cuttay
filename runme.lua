@@ -25,7 +25,7 @@ getgenv().gagConfig = {
     "Paradise Egg",
     ["Common Summer Egg"] = 20,
     ["Rare Summer Egg"] = 20
-    }
+    },
     
     PLANT_EGGS = { "Zen Egg", "Anti Bee Egg", "Primal Egg", "Bug Egg", "Paradise Egg", "Mythical Egg", "Common Summer Egg", "Rare Summer Egg" },
     
