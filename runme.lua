@@ -3,8 +3,8 @@ getgenv().gagConfig = {
     SCRIPT_KEY = script_key,
     CRAFT_EVENT = { "Anti Bee Egg"},
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Zen Egg", "Koi"},
-    MAX_EVENT_RESTOCK_SHECKLES = 250000000,
+    BUY_EVENT_SHOP = { "Zen Egg"},
+    MAX_EVENT_RESTOCK_SHECKLES = 500000000,
    
     AUTO_UPDATE_RESTART = true,
     REDEEM_CODES = {},
@@ -29,11 +29,11 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Starfish", "Tanuki", "Ostrich", "Capybara", ["Koi"] = 2, "Tanchozuru", "Seal", "Kitsune", "Kappa" , "Bald Eagle", "Fennec Fox", "Blood Kiwi", "Peacock", "Rooster", ["Hamster"] = 2, "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Chicken Zombie", ["Nihonzaru"] = 2 },
+    KEEP_PETS = { "Starfish", "Tanuki", "Ostrich", "Capybara", "Tanchozuru", "Seal", "Kitsune", "Kappa" , "Bald Eagle", "Fennec Fox", "Blood Kiwi", "Peacock", "Rooster", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Chicken Zombie" },
     KEEP_PETS_WEIGHT = 10,
 
     -- EQUIP_PETS Priority (Left -> Right)
-    EQUIP_PETS = { ["Starfish"] = 4, ["Tanchozuru"] = 2, ["Seal"] = 2},
+    EQUIP_PETS = { ["Starfish"] = 6, ["Seal"] = 2},
 
     BUY_GEAR_SHOP = { "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler" },
@@ -41,9 +41,9 @@ getgenv().gagConfig = {
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1288486290794217565/GtYWtRVhHU_Eq6XXyF0szbG3Ox3YRjUx2u6q4Ow9gvv083CwWUMT6zOY7SUbStQorr0v",
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = { "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "T-Rex", "Red Fox"},
-    NOTIFY_PETS_WEIGHT = 10,
-    DISCORD_ID = "473755357274046464",
-    WEBHOOK_NOTE = "dew",
+    NOTIFY_PETS_WEIGHT = 6,
+    DISCORD_ID = "975746409007579207",
+    WEBHOOK_NOTE = "pvt",
     SHOW_WEBHOOK_USERNAME = true,
 } 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6cb882027ef5de19462b160764dcfb53.lua"))()
