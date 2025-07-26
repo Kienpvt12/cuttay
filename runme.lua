@@ -3,7 +3,7 @@ getgenv().gagConfig = {
     SCRIPT_KEY = script_key,
     CRAFT_EVENT = { "Anti Bee Egg"},
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Zen Egg"},
+    BUY_EVENT_SHOP = { "Zen Egg", "Raiju" },
     MAX_EVENT_RESTOCK_SHECKLES = 500000000,
    
     AUTO_UPDATE_RESTART = true,
@@ -33,7 +33,7 @@ getgenv().gagConfig = {
     KEEP_PETS_WEIGHT = 10,
 
     -- EQUIP_PETS Priority (Left -> Right)
-    EQUIP_PETS = { ["Starfish"] = 6, ["Seal"] = 2},
+    EQUIP_PETS = { ["Starfish"] = 5, ["Tanchozuru"] = 1, ["Seal"] = 1},
 
     BUY_GEAR_SHOP = { "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler" },
