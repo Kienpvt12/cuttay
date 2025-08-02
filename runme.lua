@@ -2,7 +2,7 @@ setfpscap(2)
 getgenv().gagConfig = {
     SCRIPT_KEY = script_key,
     CRAFT_EVENT = { "Anti Bee Egg"},
-    BUY_EVENT_SHOP = { "Zen Egg", "Raiju"},
+    BUY_EVENT_SHOP = { "Zen Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     MAX_EVENT_RESTOCK_SHECKLES = 20000000,
     
