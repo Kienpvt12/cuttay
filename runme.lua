@@ -3,8 +3,6 @@ getgenv().gagConfig = {
     SCRIPT_KEY = script_key,
     CRAFT_EVENT = { "Anti Bee Egg"},
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    MAX_EVENT_RESTOCK_SHECKLES = 1900000000,
-    PLACE_ALL_EVENT_STAFF = true,
     
     AUTO_UPDATE_RESTART = true,
     REDEEM_CODES = {},
